@@ -303,6 +303,8 @@ background: linear-gradient(135deg, var(--primary), #aa2d00);
 
 .cta a {
     background-color: var(--light);
+    padding: 10px 20px;
+    border-radius: 5px;
     
 }
 
@@ -313,11 +315,13 @@ footer {
     padding: 60px 5% 20px;
     background: var(--dark);
     color: #fff;
+    font-size: 12px;
 }
 
 
 footer .copy {
     grid-column: 1/-1;
     text-align: center;
+    font-size: 12px;
 
 }
