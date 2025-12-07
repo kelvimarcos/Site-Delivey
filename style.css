@@ -246,3 +246,78 @@ header nav a:hover {
     text-align: center;
     padding: 10px;
 }
+
+
+.sobre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 60px;
+    padding: 80px 5%;
+    background-color: var(--light);
+ }
+
+
+ .sobre img { 
+    border-radius: var(--radius);
+    box-sizing: var(--shadow);
+ }
+
+ .sobre h2 { 
+    font-size: 36px;
+    margin-bottom: 20px;
+ }
+
+ .sobre article { 
+    color: var(--gray);
+    margin-bottom: 30px;
+ }
+
+ .sobre ul { 
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+ }
+
+
+ .cta {
+padding: 80px 5%;
+text-align: center;
+background: linear-gradient(135deg, var(--primary), #aa2d00);
+}
+
+.cta h2 {font-size: 36px;
+        color: #fff;
+        margin-bottom: 10px;
+
+}
+
+
+.cta p { 
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+
+.cta a {
+    background-color: var(--light);
+    
+}
+
+footer { 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    padding: 60px 5% 20px;
+    background: var(--dark);
+    color: #fff;
+}
+
+
+footer .copy {
+    grid-column: 1/-1;
+    text-align: center;
+
+}
